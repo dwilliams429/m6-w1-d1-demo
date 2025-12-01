@@ -1,0 +1,18 @@
+{
+  "name": "javascript-design-patterns",
+  "version": "1.0.0",
+  "description": "A collection of examples of various design patterns written in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./$PATTERN/index.js",
+    "start-dev": "nodemon ./$PATTERN/index.js"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.20.1",
+    "nodemon": "^1.18.4"
+  }
+}
